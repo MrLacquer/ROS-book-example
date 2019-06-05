@@ -1,0 +1,827 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /MotionPlanning1
+        - /MotionPlanning1/Planning Request1
+        - /MotionPlanning1/Planning Metrics1
+        - /MarkerArray1
+        - /PointCloud21
+        - /TF1
+        - /TF1/Frames1
+        - /Camera1
+        - /Map1
+        - /MarkerArray2
+        - /Marker1
+        - /Pose1
+        - /Path1
+      Splitter Ratio: 0.742560029
+    Tree Height: 232
+  - Class: rviz/Help
+    Name: Help
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Acceleration_Scaling_Factor: 1
+      Class: moveit_rviz_plugin/MotionPlanning
+      Enabled: true
+      Move Group Namespace: ""
+      MoveIt_Allow_Approximate_IK: false
+      MoveIt_Allow_External_Program: false
+      MoveIt_Allow_Replanning: false
+      MoveIt_Allow_Sensor_Positioning: false
+      MoveIt_Goal_Tolerance: 0
+      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Time: 5
+      MoveIt_Use_Constraint_Aware_IK: true
+      MoveIt_Warehouse_Host: 127.0.0.1
+      MoveIt_Warehouse_Port: 33829
+      MoveIt_Workspace:
+        Center:
+          X: 0
+          Y: 0
+          Z: 0
+        Size:
+          X: 2
+          Y: 2
+          Z: 2
+      Name: MotionPlanning
+      Planned Path:
+        Color Enabled: false
+        Interrupt Display: false
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bellows_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bellows_link2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          elbow_flex_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          estop_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          forearm_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          gripper_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          head_camera_depth_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_depth_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_rgb_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_rgb_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_pan_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          head_tilt_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_gripper_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          laser_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_gripper_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          shoulder_lift_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          shoulder_pan_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_fixed_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_lift_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          upperarm_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          wrist_flex_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          wrist_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Loop Animation: false
+        Robot Alpha: 0.5
+        Robot Color: 150; 50; 150
+        Show Robot Collision: false
+        Show Robot Visual: true
+        Show Trail: false
+        State Display Time: 0.05 s
+        Trail Step Size: 1
+        Trajectory Topic: /move_group/display_planned_path
+      Planning Metrics:
+        Payload: 1
+        Show Joint Torques: false
+        Show Manipulability: false
+        Show Manipulability Index: false
+        Show Weight Limit: false
+        TextHeight: 0.0799999982
+      Planning Request:
+        Colliding Link Color: 255; 0; 0
+        Goal State Alpha: 1
+        Goal State Color: 250; 128; 0
+        Interactive Marker Size: 0
+        Joint Violation Color: 255; 0; 255
+        Planning Group: ""
+        Query Goal State: false
+        Query Start State: false
+        Show Workspace: false
+        Start State Alpha: 1
+        Start State Color: 0; 255; 0
+      Planning Scene Topic: /move_group/monitored_planning_scene
+      Robot Description: robot_description
+      Scene Geometry:
+        Scene Alpha: 1
+        Scene Color: 50; 230; 50
+        Scene Display Time: 0.200000003
+        Show Scene Geometry: true
+        Voxel Coloring: Z-Axis
+        Voxel Rendering: Occupied Voxels
+      Scene Robot:
+        Attached Body Color: 150; 50; 150
+        Links:
+          All Links Enabled: true
+          Expand Joint Details: false
+          Expand Link Details: false
+          Expand Tree: false
+          Link Tree Style: Links in Alphabetic Order
+          base_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bellows_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bellows_link2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          elbow_flex_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          estop_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          forearm_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          gripper_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          head_camera_depth_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_depth_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_rgb_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_camera_rgb_optical_frame:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          head_pan_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          head_tilt_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_gripper_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          l_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          laser_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_gripper_finger_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          r_wheel_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          shoulder_lift_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          shoulder_pan_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_fixed_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          torso_lift_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          upperarm_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          wrist_flex_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          wrist_roll_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+        Robot Alpha: 0.5
+        Show Robot Collision: false
+        Show Robot Visual: true
+      Value: true
+      Velocity_Scaling_Factor: 1
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: visualization_marker_array
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 0.725148439
+        Min Value: -0.0156360865
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: AxisColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 4096
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Points
+      Topic: /output
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        ar_0_up:
+          Value: false
+        ar_10_up:
+          Value: false
+        ar_11_up:
+          Value: false
+        ar_1_up:
+          Value: false
+        ar_2_up:
+          Value: false
+        ar_3_up:
+          Value: false
+        ar_4_up:
+          Value: false
+        ar_5_up:
+          Value: false
+        ar_6_up:
+          Value: false
+        ar_7_up:
+          Value: false
+        ar_8_up:
+          Value: false
+        ar_9_up:
+          Value: false
+        ar_marker_0:
+          Value: false
+        ar_marker_1:
+          Value: true
+        ar_marker_10:
+          Value: true
+        ar_marker_11:
+          Value: true
+        ar_marker_2:
+          Value: true
+        ar_marker_255:
+          Value: true
+        ar_marker_3:
+          Value: true
+        ar_marker_4:
+          Value: true
+        ar_marker_5:
+          Value: true
+        ar_marker_6:
+          Value: true
+        ar_marker_7:
+          Value: true
+        ar_marker_8:
+          Value: true
+        ar_marker_9:
+          Value: true
+        base_link:
+          Value: true
+        bellows_link:
+          Value: false
+        bellows_link2:
+          Value: false
+        elbow_flex_link:
+          Value: false
+        estop_link:
+          Value: false
+        forearm_roll_link:
+          Value: false
+        gripper_link:
+          Value: false
+        head_camera_depth_frame:
+          Value: false
+        head_camera_depth_optical_frame:
+          Value: false
+        head_camera_link:
+          Value: true
+        head_camera_rgb_frame:
+          Value: false
+        head_camera_rgb_optical_frame:
+          Value: false
+        head_pan_link:
+          Value: false
+        head_tilt_link:
+          Value: false
+        item_0:
+          Value: false
+        item_1:
+          Value: false
+        item_10:
+          Value: false
+        item_11:
+          Value: false
+        item_2:
+          Value: false
+        item_3:
+          Value: false
+        item_4:
+          Value: false
+        item_5:
+          Value: false
+        item_6:
+          Value: false
+        item_7:
+          Value: false
+        item_8:
+          Value: false
+        item_9:
+          Value: false
+        l_gripper_finger_link:
+          Value: false
+        l_wheel_link:
+          Value: false
+        laser_link:
+          Value: false
+        map:
+          Value: false
+        odom:
+          Value: true
+        r_gripper_finger_link:
+          Value: false
+        r_wheel_link:
+          Value: false
+        shoulder_lift_link:
+          Value: false
+        shoulder_pan_link:
+          Value: false
+        torso_fixed_link:
+          Value: false
+        torso_lift_link:
+          Value: false
+        upperarm_roll_link:
+          Value: false
+        wrist_flex_link:
+          Value: false
+        wrist_roll_link:
+          Value: false
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        map:
+          odom:
+            base_link:
+              estop_link:
+                {}
+              l_wheel_link:
+                {}
+              laser_link:
+                {}
+              r_wheel_link:
+                {}
+              torso_fixed_link:
+                {}
+              torso_lift_link:
+                bellows_link:
+                  {}
+                bellows_link2:
+                  {}
+                head_pan_link:
+                  head_tilt_link:
+                    head_camera_link:
+                      head_camera_depth_frame:
+                        head_camera_depth_optical_frame:
+                          {}
+                      head_camera_rgb_frame:
+                        head_camera_rgb_optical_frame:
+                          ar_marker_0:
+                            ar_0_up:
+                              item_0:
+                                {}
+                          ar_marker_1:
+                            ar_1_up:
+                              item_1:
+                                {}
+                          ar_marker_10:
+                            ar_10_up:
+                              item_10:
+                                {}
+                          ar_marker_11:
+                            ar_11_up:
+                              item_11:
+                                {}
+                          ar_marker_2:
+                            ar_2_up:
+                              item_2:
+                                {}
+                          ar_marker_255:
+                            {}
+                          ar_marker_3:
+                            ar_3_up:
+                              item_3:
+                                {}
+                          ar_marker_4:
+                            ar_4_up:
+                              item_4:
+                                {}
+                          ar_marker_5:
+                            ar_5_up:
+                              item_5:
+                                {}
+                          ar_marker_6:
+                            ar_6_up:
+                              item_6:
+                                {}
+                          ar_marker_7:
+                            ar_7_up:
+                              item_7:
+                                {}
+                          ar_marker_8:
+                            ar_8_up:
+                              item_8:
+                                {}
+                          ar_marker_9:
+                            ar_9_up:
+                              item_9:
+                                {}
+                shoulder_pan_link:
+                  shoulder_lift_link:
+                    upperarm_roll_link:
+                      elbow_flex_link:
+                        forearm_roll_link:
+                          wrist_flex_link:
+                            wrist_roll_link:
+                              gripper_link:
+                                l_gripper_finger_link:
+                                  {}
+                                r_gripper_finger_link:
+                                  {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/Camera
+      Enabled: false
+      Image Rendering: background and overlay
+      Image Topic: /head_camera/rgb/image_raw
+      Name: Camera
+      Overlay Alpha: 0.5
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+      Visibility:
+        Grid: true
+        LaserScan: true
+        Map: true
+        Marker: true
+        MarkerArray: true
+        MotionPlanning: true
+        Path: true
+        PointCloud2: true
+        Pose: true
+        TF: true
+        Value: true
+      Zoom Factor: 1
+    - Alpha: 0.699999988
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 9.80908925e-45
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.00999999978
+      Style: Flat Squares
+      Topic: /base_scan
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /move_group/display_contacts
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /visualization_marker
+      Name: Marker
+      Namespaces:
+        basic_shapes: true
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Axes Length: 1
+      Axes Radius: 0.100000001
+      Class: rviz/Pose
+      Color: 0; 170; 0
+      Enabled: true
+      Head Length: 0.300000012
+      Head Radius: 0.100000001
+      Name: Pose
+      Shaft Length: 1
+      Shaft Radius: 0.0500000007
+      Shape: Axes
+      Topic: /move_base/current_goal
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /move_base/TrajectoryPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz/XYOrbit
+      Distance: 6.20376682
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.499201298
+        Y: -0.218302965
+        Z: 7.00355031e-07
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.534796178
+      Target Frame: base_link
+      Value: XYOrbit (rviz)
+      Yaw: 2.76677084
+    Saved: ~
+Window Geometry:
+  Camera:
+    collapsed: false
+  Displays:
+    collapsed: false
+  Height: 771
+  Help:
+    collapsed: false
+  Hide Left Dock: false
+  Hide Right Dock: true
+  MotionPlanning:
+    collapsed: false
+  MotionPlanning - Trajectory Slider:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002ad000002bdfc0200000008fb000000100044006900730070006c006100790073010000002800000129000000d700fffffffb0000000800480065006c00700000000342000000bb0000007300fffffffb0000000a0056006900650077007300000003b0000000b0000000ad00fffffffb0000000c00430061006d006500720061020000087b000000620000016f0000011efb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e0067010000024e0000017f0000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004a00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006701000001570000018e0000018300fffffffb0000000c00430061006d00650072006103000002e6000002c4000001d5000001740000028e000002bd00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1345
+  X: 1181
+  Y: 273
